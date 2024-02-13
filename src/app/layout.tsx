@@ -12,7 +12,7 @@ import { PaletteMode } from '@mui/material'
 import Appbar from '@/components/Appbar/Appbar'
 
 export default function RootLayout(props: { children: React.ReactNode }) {
-  const [mode, setMode] = React.useState<PaletteMode>('light')
+  const [mode, setMode] = React.useState<PaletteMode>('dark')
 
   const paletteMode = React.useMemo(
     () => ({
